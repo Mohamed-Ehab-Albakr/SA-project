@@ -1,55 +1,8 @@
-Clinic Appointment Booking System
 
-Project Overview
-
-The Clinic Appointment Booking System is a web-based application designed to simplify the process of booking medical appointments.
-
-The system allows patients to browse medical specialties, search for doctors, view doctor profiles, check available appointment slots, and manage their bookings.
-
-It also provides dedicated dashboards for doctors and administrators.
-
-Project Type: Front-End Web Application
-
-Technologies: HTML5, CSS3, JavaScript
-
-⸻
-
-System Users
-
-The system supports three main user roles:
-
-* Patient: Can browse doctors, book appointments, view bookings, and manage personal information.
-* Doctor: Can access a personal dashboard and view daily appointments and patient information.
-* Administrator: Can manage doctors, specialties, patients, and appointments.
-
-⸻
-
-Project Structure
-
-Clinic-Appointment-System/
-│
-├── index.html
-├── login.html
-├── patient-dashboard.html
-├── doctors.html
-├── doctor-profile.html
-├── booking.html
-├── my-appointments.html
-├── doctor-dashboard.html
-├── admin-dashboard.html
-│
-├── style.css
-├── script.js
-│
-├── images/
-│
-└── README.md
-
-⸻
 
 Functional Requirements
 
-1. Authentication – login.html
+1. Authentication – index.html
 
 * FR-01: Patient Registration
     * Allow patients to create a new account by providing their personal information.
@@ -70,7 +23,7 @@ Functional Requirements
 * FR-06: Search and Filter Doctors
     * Allow patients to search for doctors and filter them by specialty.
 
-4. Doctor Profile – doctor-profile.html
+4. Doctor Profile – doctor-profile.html +doctor-profile-2.html
 
 * FR-07: View Doctor Information
     * Display the doctor’s name, specialty, profile image, and professional information.
@@ -117,24 +70,3 @@ Front-End Features
 * Interactive dashboards.
 * Appointment management.
 * Reusable design components.
-
-⸻
-
-Project Limitations
-
-This project focuses on Front-End development only.
-
-* No real backend implementation.
-* No real database connection.
-* No server-side authentication.
-* Mock data and JavaScript will be used to simulate system operations.
-
-⸻
-
-Team Development
-
-The project is developed collaboratively by an eight-member team.
-
-Each team member is responsible for implementing specific pages and their related functional requirements.
-
-All pages follow a unified design system to maintain consistency across the application.
